@@ -1,0 +1,166 @@
+
+.Main{
+    background:darkgrey;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Sprint1{
+    width: 80%;
+    margin: auto;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    background-color: darkcyan;
+    box-shadow: 10px 8px 10px gray;
+    border-radius: 15px;
+    height: 320px;
+    transition: 3s;
+}
+
+
+.Sprint2{
+    width: 80%;
+    margin: auto;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 10px 8px 10px gray;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    height: 570px;
+    transition: 3s;
+}
+
+
+.Sprint1:hover{
+    transition: 3s;
+    background-color:lightcyan ;
+}
+
+
+.Sprint2:hover{
+    transition: 3s;
+    background-color: lightyellow;
+}
+
+
+.sss{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin:10px;
+    padding: 20px;
+    border: 4px solid;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    font-size:25px ;
+    transition: 0.1s;
+    
+}
+
+
+
+
+.dasas{
+    text-decoration: none;
+    color: black;
+}
+
+
+.dasas:active{
+    color:purple;
+}
+
+
+.sss:active{
+    color: black;
+}
+
+.sss:hover{
+    border: 4px solid lightslategray;
+}
+
+
+.sss:active{
+    border: 6px solid black;
+    transition: 0.1s;
+    
+}
+
+
+body{
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.asd{
+    color: lightpink;
+}
+
+.abab{
+    color: slategray;
+    position: relative;
+    right: 1px;
+    bottom:1px;
+
+}
+
+.fixed{
+    position: fixed;
+    width: 135px;
+    height: 300px;
+    border: 0px solid black;
+
+}
+
+.fir{
+    width:135px;
+    height: 100px;
+    border:4px solid black;
+    margin: 2px ;
+    background-color: lightgreen;
+    transition: 0.1s;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.fir:hover{
+    background-color: lightseagreen;
+    transition: 0.1s;
+    box-shadow: 10px 10px 10px slategrey;
+}
+
+
+.hass{
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    padding: auto;
+    background-color: lightgreen;
+    font-size: 20px;
+    border: 1px solid lightgreen;
+    transition: 0.1s;
+}
+
+.hass:focus{
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    font-size: 20px;
+}
+
+.fir:hover .hass{
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    transition: 0.1s;
+}

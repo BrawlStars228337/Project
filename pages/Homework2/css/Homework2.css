@@ -1,0 +1,55 @@
+body {
+    background-color: #CD5C5C;
+}
+div{
+    height: 290px;
+    width: 260px;
+    background-color: goldenrod;
+    border-radius: 100px;
+
+}
+hr{
+    
+    color: black;
+}
+
+h1{
+    color:  goldenrod;
+}
+
+em.emmm{
+    color:#DEB887;
+}
+
+em.emm{
+    color:#DEB887;
+}
+
+b.norm{
+    color:#8B0000;
+}
+
+
+
+
+ul{
+    list-style: square;
+}
+
+
+li.firstt{
+    color:khaki;
+}
+
+li.secondd{
+    color:lightgreen;
+}
+
+
+li.thirdd{
+    color:#B22222;
+}
+
+h2{
+    color: #40E0D0;
+}
